@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeLeaf.org" lang="sp">
+<head th:replace="layout/layout :: head"></head>
+
+</head>
+<body>
+	<header th:replace="layout/layout :: header"></header>
+
+	<h1
+		class="text-successs border border-successs border-top-0 border-left-0 border-right-0"
+		th:if="${titulo!=null}" th:text="${titulo}"></h1>
+
+	<footer th:replace="layout/layout :: footer"></footer>
+</body>
+</html>
